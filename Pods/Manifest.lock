@@ -1,0 +1,34 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FMDB (~> 2.7.5)
+  - Masonry (~> 1.1.0)
+  - MJRefresh (~> 3.1.15.7)
+  - SVProgressHUD (~> 2.2.5)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+    - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 0c6b529cdd76b150bec6357a246bd51f03e9acee
+
+COCOAPODS: 1.5.3

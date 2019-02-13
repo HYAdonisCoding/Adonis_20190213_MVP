@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44228B38FA6C4DE3843AF983 /* libPods-Adonis_20190213_MVPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3652FCF75379FB00284B23A /* libPods-Adonis_20190213_MVPUITests.a */; };
+		769A5EF0B2A050D325E6A787 /* libPods-Adonis_20190213_MVPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBD6684AADACA71AD6C65CE /* libPods-Adonis_20190213_MVPTests.a */; };
 		7AD383B22213C1DB00B1E9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383B12213C1DB00B1E9F9 /* AppDelegate.m */; };
 		7AD383B52213C1DC00B1E9F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383B42213C1DC00B1E9F9 /* ViewController.m */; };
 		7AD383B82213C1DC00B1E9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD383B62213C1DC00B1E9F9 /* Main.storyboard */; };
@@ -16,6 +18,24 @@
 		7AD383C32213C1DD00B1E9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383C22213C1DD00B1E9F9 /* main.m */; };
 		7AD383CD2213C1DD00B1E9F9 /* Adonis_20190213_MVPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383CC2213C1DD00B1E9F9 /* Adonis_20190213_MVPTests.m */; };
 		7AD383D82213C1DD00B1E9F9 /* Adonis_20190213_MVPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383D72213C1DD00B1E9F9 /* Adonis_20190213_MVPUITests.m */; };
+		7AD383EC2213F1DC00B1E9F9 /* HYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383EB2213F1DC00B1E9F9 /* HYBaseViewController.m */; };
+		7AD383EF2213F1F200B1E9F9 /* HYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383EE2213F1F200B1E9F9 /* HYBaseModel.m */; };
+		7AD383F22213F20B00B1E9F9 /* HYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383F12213F20B00B1E9F9 /* HYBaseView.m */; };
+		7AD383F62213F31000B1E9F9 /* HYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383F52213F31000B1E9F9 /* HYBaseNavigationController.m */; };
+		7AD383F92213F3D700B1E9F9 /* HYEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383F82213F3D700B1E9F9 /* HYEncryptTool.m */; };
+		7AD384032213F46000B1E9F9 /* SM4EncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383FD2213F46000B1E9F9 /* SM4EncodeAndDecode.m */; };
+		7AD384042213F46000B1E9F9 /* sm4test.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383FE2213F46000B1E9F9 /* sm4test.c */; };
+		7AD384052213F46000B1E9F9 /* sm4.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AD383FF2213F46000B1E9F9 /* sm4.c */; };
+		7AD384082213F52700B1E9F9 /* HYFoundationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD384072213F52700B1E9F9 /* HYFoundationTool.m */; };
+		7AD3840E2213F84300B1E9F9 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3840D2213F84300B1E9F9 /* UIView+HUD.m */; };
+		7AD384112213FBC700B1E9F9 /* HYShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD384102213FBC700B1E9F9 /* HYShoppingCartCell.m */; };
+		7AD384142213FBE300B1E9F9 /* HYShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD384132213FBE300B1E9F9 /* HYShoppingCartController.m */; };
+		7AD384172213FBF700B1E9F9 /* HYShoppingCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD384162213FBF700B1E9F9 /* HYShoppingCartModel.m */; };
+		7AD3841A2213FC4600B1E9F9 /* HYShoppingCartPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD384192213FC4600B1E9F9 /* HYShoppingCartPresent.m */; };
+		7AD3841D2213FCFE00B1E9F9 /* UITableView+HYRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3841C2213FCFE00B1E9F9 /* UITableView+HYRegister.m */; };
+		7AD384202214005600B1E9F9 /* UIColor+HYSetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3841F2214005600B1E9F9 /* UIColor+HYSetColor.m */; };
+		7AD384222214069700B1E9F9 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD384212214069700B1E9F9 /* Data.json */; };
+		EA8726AD22586236F812D8BE /* libPods-Adonis_20190213_MVP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EDD0BFE69F202A8EA1E26E /* libPods-Adonis_20190213_MVP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED4D3197469F07BBFEEE1DD /* Pods-Adonis_20190213_MVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVPUITests/Pods-Adonis_20190213_MVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26D9C915E485CF3CE8E6274B /* Pods-Adonis_20190213_MVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVPTests/Pods-Adonis_20190213_MVPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38EDD0BFE69F202A8EA1E26E /* libPods-Adonis_20190213_MVP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190213_MVP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBD6684AADACA71AD6C65CE /* libPods-Adonis_20190213_MVPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190213_MVPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F61B20B857178DDD835F5C9 /* Pods-Adonis_20190213_MVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVP/Pods-Adonis_20190213_MVP.debug.xcconfig"; sourceTree = "<group>"; };
 		7AD383AD2213C1DB00B1E9F9 /* Adonis_20190213_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adonis_20190213_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD383B02213C1DB00B1E9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AD383B12213C1DB00B1E9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +78,44 @@
 		7AD383D32213C1DD00B1E9F9 /* Adonis_20190213_MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adonis_20190213_MVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD383D72213C1DD00B1E9F9 /* Adonis_20190213_MVPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adonis_20190213_MVPUITests.m; sourceTree = "<group>"; };
 		7AD383D92213C1DD00B1E9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD383EA2213F1DC00B1E9F9 /* HYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseViewController.h; sourceTree = "<group>"; };
+		7AD383EB2213F1DC00B1E9F9 /* HYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseViewController.m; sourceTree = "<group>"; };
+		7AD383ED2213F1F200B1E9F9 /* HYBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseModel.h; sourceTree = "<group>"; };
+		7AD383EE2213F1F200B1E9F9 /* HYBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseModel.m; sourceTree = "<group>"; };
+		7AD383F02213F20B00B1E9F9 /* HYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseView.h; sourceTree = "<group>"; };
+		7AD383F12213F20B00B1E9F9 /* HYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseView.m; sourceTree = "<group>"; };
+		7AD383F42213F31000B1E9F9 /* HYBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseNavigationController.h; sourceTree = "<group>"; };
+		7AD383F52213F31000B1E9F9 /* HYBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseNavigationController.m; sourceTree = "<group>"; };
+		7AD383F72213F3D700B1E9F9 /* HYEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYEncryptTool.h; sourceTree = "<group>"; };
+		7AD383F82213F3D700B1E9F9 /* HYEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYEncryptTool.m; sourceTree = "<group>"; };
+		7AD383FD2213F46000B1E9F9 /* SM4EncodeAndDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM4EncodeAndDecode.m; sourceTree = "<group>"; };
+		7AD383FE2213F46000B1E9F9 /* sm4test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4test.c; sourceTree = "<group>"; };
+		7AD383FF2213F46000B1E9F9 /* sm4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4.c; sourceTree = "<group>"; };
+		7AD384002213F46000B1E9F9 /* sm4test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4test.h; sourceTree = "<group>"; };
+		7AD384012213F46000B1E9F9 /* SM4EncodeAndDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM4EncodeAndDecode.h; sourceTree = "<group>"; };
+		7AD384022213F46000B1E9F9 /* sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4.h; sourceTree = "<group>"; };
+		7AD384062213F52700B1E9F9 /* HYFoundationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYFoundationTool.h; sourceTree = "<group>"; };
+		7AD384072213F52700B1E9F9 /* HYFoundationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFoundationTool.m; sourceTree = "<group>"; };
+		7AD3840A2213F5E500B1E9F9 /* HYHeaderPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHeaderPrefix.h; sourceTree = "<group>"; };
+		7AD3840C2213F84300B1E9F9 /* UIView+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		7AD3840D2213F84300B1E9F9 /* UIView+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		7AD3840F2213FBC700B1E9F9 /* HYShoppingCartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYShoppingCartCell.h; sourceTree = "<group>"; };
+		7AD384102213FBC700B1E9F9 /* HYShoppingCartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYShoppingCartCell.m; sourceTree = "<group>"; };
+		7AD384122213FBE300B1E9F9 /* HYShoppingCartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYShoppingCartController.h; sourceTree = "<group>"; };
+		7AD384132213FBE300B1E9F9 /* HYShoppingCartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYShoppingCartController.m; sourceTree = "<group>"; };
+		7AD384152213FBF700B1E9F9 /* HYShoppingCartModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYShoppingCartModel.h; sourceTree = "<group>"; };
+		7AD384162213FBF700B1E9F9 /* HYShoppingCartModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYShoppingCartModel.m; sourceTree = "<group>"; };
+		7AD384182213FC4600B1E9F9 /* HYShoppingCartPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYShoppingCartPresent.h; sourceTree = "<group>"; };
+		7AD384192213FC4600B1E9F9 /* HYShoppingCartPresent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYShoppingCartPresent.m; sourceTree = "<group>"; };
+		7AD3841B2213FCFE00B1E9F9 /* UITableView+HYRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYRegister.h"; sourceTree = "<group>"; };
+		7AD3841C2213FCFE00B1E9F9 /* UITableView+HYRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYRegister.m"; sourceTree = "<group>"; };
+		7AD3841E2214005600B1E9F9 /* UIColor+HYSetColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYSetColor.h"; sourceTree = "<group>"; };
+		7AD3841F2214005600B1E9F9 /* UIColor+HYSetColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYSetColor.m"; sourceTree = "<group>"; };
+		7AD384212214069700B1E9F9 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		8295E1583689B7380FED75ED /* Pods-Adonis_20190213_MVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVPTests/Pods-Adonis_20190213_MVPTests.release.xcconfig"; sourceTree = "<group>"; };
+		C681991829E45F75AAD245FE /* Pods-Adonis_20190213_MVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVP/Pods-Adonis_20190213_MVP.release.xcconfig"; sourceTree = "<group>"; };
+		D3652FCF75379FB00284B23A /* libPods-Adonis_20190213_MVPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190213_MVPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C626EA566A9B6CC7FCD8E5 /* Pods-Adonis_20190213_MVPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVPUITests/Pods-Adonis_20190213_MVPUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8726AD22586236F812D8BE /* libPods-Adonis_20190213_MVP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769A5EF0B2A050D325E6A787 /* libPods-Adonis_20190213_MVPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44228B38FA6C4DE3843AF983 /* libPods-Adonis_20190213_MVPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +153,8 @@
 				7AD383CB2213C1DD00B1E9F9 /* Adonis_20190213_MVPTests */,
 				7AD383D62213C1DD00B1E9F9 /* Adonis_20190213_MVPUITests */,
 				7AD383AE2213C1DB00B1E9F9 /* Products */,
+				BE85263F1A098CBF1AE0F683 /* Pods */,
+				BBB5FDBD4E5579D8F83870BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +171,16 @@
 		7AD383AF2213C1DB00B1E9F9 /* Adonis_20190213_MVP */ = {
 			isa = PBXGroup;
 			children = (
+				7AD3840B2213F77700B1E9F9 /* CustomView */,
+				7AD384092213F5B300B1E9F9 /* Resources */,
+				7AD383FB2213F45000B1E9F9 /* Category */,
+				7AD383FA2213F44500B1E9F9 /* ThirdClass */,
+				7AD383E92213C3BB00B1E9F9 /* BaseClass */,
+				7AD383E82213C39D00B1E9F9 /* Presenter */,
+				7AD383E72213C38500B1E9F9 /* Controller */,
+				7AD383E62213C37D00B1E9F9 /* Model */,
+				7AD383E52213C36A00B1E9F9 /* View */,
+				7AD383F32213F29800B1E9F9 /* Untils */,
 				7AD383B02213C1DB00B1E9F9 /* AppDelegate.h */,
 				7AD383B12213C1DB00B1E9F9 /* AppDelegate.m */,
 				7AD383B32213C1DB00B1E9F9 /* ViewController.h */,
@@ -135,6 +213,141 @@
 			path = Adonis_20190213_MVPUITests;
 			sourceTree = "<group>";
 		};
+		7AD383E52213C36A00B1E9F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3840F2213FBC700B1E9F9 /* HYShoppingCartCell.h */,
+				7AD384102213FBC700B1E9F9 /* HYShoppingCartCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AD383E62213C37D00B1E9F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AD384152213FBF700B1E9F9 /* HYShoppingCartModel.h */,
+				7AD384162213FBF700B1E9F9 /* HYShoppingCartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AD383E72213C38500B1E9F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AD384122213FBE300B1E9F9 /* HYShoppingCartController.h */,
+				7AD384132213FBE300B1E9F9 /* HYShoppingCartController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AD383E82213C39D00B1E9F9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7AD384182213FC4600B1E9F9 /* HYShoppingCartPresent.h */,
+				7AD384192213FC4600B1E9F9 /* HYShoppingCartPresent.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7AD383E92213C3BB00B1E9F9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7AD383EA2213F1DC00B1E9F9 /* HYBaseViewController.h */,
+				7AD383EB2213F1DC00B1E9F9 /* HYBaseViewController.m */,
+				7AD383F42213F31000B1E9F9 /* HYBaseNavigationController.h */,
+				7AD383F52213F31000B1E9F9 /* HYBaseNavigationController.m */,
+				7AD383ED2213F1F200B1E9F9 /* HYBaseModel.h */,
+				7AD383EE2213F1F200B1E9F9 /* HYBaseModel.m */,
+				7AD383F02213F20B00B1E9F9 /* HYBaseView.h */,
+				7AD383F12213F20B00B1E9F9 /* HYBaseView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7AD383F32213F29800B1E9F9 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				7AD383F72213F3D700B1E9F9 /* HYEncryptTool.h */,
+				7AD383F82213F3D700B1E9F9 /* HYEncryptTool.m */,
+				7AD384062213F52700B1E9F9 /* HYFoundationTool.h */,
+				7AD384072213F52700B1E9F9 /* HYFoundationTool.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		7AD383FA2213F44500B1E9F9 /* ThirdClass */ = {
+			isa = PBXGroup;
+			children = (
+				7AD383FC2213F46000B1E9F9 /* sm4 */,
+			);
+			path = ThirdClass;
+			sourceTree = "<group>";
+		};
+		7AD383FB2213F45000B1E9F9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3840C2213F84300B1E9F9 /* UIView+HUD.h */,
+				7AD3840D2213F84300B1E9F9 /* UIView+HUD.m */,
+				7AD3841B2213FCFE00B1E9F9 /* UITableView+HYRegister.h */,
+				7AD3841C2213FCFE00B1E9F9 /* UITableView+HYRegister.m */,
+				7AD3841E2214005600B1E9F9 /* UIColor+HYSetColor.h */,
+				7AD3841F2214005600B1E9F9 /* UIColor+HYSetColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7AD383FC2213F46000B1E9F9 /* sm4 */ = {
+			isa = PBXGroup;
+			children = (
+				7AD383FD2213F46000B1E9F9 /* SM4EncodeAndDecode.m */,
+				7AD383FE2213F46000B1E9F9 /* sm4test.c */,
+				7AD383FF2213F46000B1E9F9 /* sm4.c */,
+				7AD384002213F46000B1E9F9 /* sm4test.h */,
+				7AD384012213F46000B1E9F9 /* SM4EncodeAndDecode.h */,
+				7AD384022213F46000B1E9F9 /* sm4.h */,
+			);
+			path = sm4;
+			sourceTree = "<group>";
+		};
+		7AD384092213F5B300B1E9F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3840A2213F5E500B1E9F9 /* HYHeaderPrefix.h */,
+				7AD384212214069700B1E9F9 /* Data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AD3840B2213F77700B1E9F9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BBB5FDBD4E5579D8F83870BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38EDD0BFE69F202A8EA1E26E /* libPods-Adonis_20190213_MVP.a */,
+				4BBD6684AADACA71AD6C65CE /* libPods-Adonis_20190213_MVPTests.a */,
+				D3652FCF75379FB00284B23A /* libPods-Adonis_20190213_MVPUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE85263F1A098CBF1AE0F683 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F61B20B857178DDD835F5C9 /* Pods-Adonis_20190213_MVP.debug.xcconfig */,
+				C681991829E45F75AAD245FE /* Pods-Adonis_20190213_MVP.release.xcconfig */,
+				26D9C915E485CF3CE8E6274B /* Pods-Adonis_20190213_MVPTests.debug.xcconfig */,
+				8295E1583689B7380FED75ED /* Pods-Adonis_20190213_MVPTests.release.xcconfig */,
+				0ED4D3197469F07BBFEEE1DD /* Pods-Adonis_20190213_MVPUITests.debug.xcconfig */,
+				D6C626EA566A9B6CC7FCD8E5 /* Pods-Adonis_20190213_MVPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AD383DC2213C1DD00B1E9F9 /* Build configuration list for PBXNativeTarget "Adonis_20190213_MVP" */;
 			buildPhases = (
+				364451237580AE0AE6F89388 /* [CP] Check Pods Manifest.lock */,
 				7AD383A92213C1DB00B1E9F9 /* Sources */,
 				7AD383AA2213C1DB00B1E9F9 /* Frameworks */,
 				7AD383AB2213C1DB00B1E9F9 /* Resources */,
+				843D0FD59E48713753D04EB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AD383DF2213C1DD00B1E9F9 /* Build configuration list for PBXNativeTarget "Adonis_20190213_MVPTests" */;
 			buildPhases = (
+				70C8D51C31D6767930D4D074 /* [CP] Check Pods Manifest.lock */,
 				7AD383C42213C1DD00B1E9F9 /* Sources */,
 				7AD383C52213C1DD00B1E9F9 /* Frameworks */,
 				7AD383C62213C1DD00B1E9F9 /* Resources */,
@@ -177,6 +393,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AD383E22213C1DD00B1E9F9 /* Build configuration list for PBXNativeTarget "Adonis_20190213_MVPUITests" */;
 			buildPhases = (
+				66A387BE9BD0759C106F3518 /* [CP] Check Pods Manifest.lock */,
 				7AD383CF2213C1DD00B1E9F9 /* Sources */,
 				7AD383D02213C1DD00B1E9F9 /* Frameworks */,
 				7AD383D12213C1DD00B1E9F9 /* Resources */,
@@ -197,6 +414,7 @@
 		7AD383A52213C1DB00B1E9F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HY;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Nikoyo (China）Electronics Systems Co., Ltd.";
 				TargetAttributes = {
@@ -241,6 +459,7 @@
 				7AD383C02213C1DD00B1E9F9 /* LaunchScreen.storyboard in Resources */,
 				7AD383BD2213C1DD00B1E9F9 /* Assets.xcassets in Resources */,
 				7AD383B82213C1DC00B1E9F9 /* Main.storyboard in Resources */,
+				7AD384222214069700B1E9F9 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +479,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		364451237580AE0AE6F89388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190213_MVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A387BE9BD0759C106F3518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190213_MVPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C8D51C31D6767930D4D074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190213_MVPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843D0FD59E48713753D04EB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Adonis_20190213_MVP/Pods-Adonis_20190213_MVP-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adonis_20190213_MVP/Pods-Adonis_20190213_MVP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AD383A92213C1DB00B1E9F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD3840E2213F84300B1E9F9 /* UIView+HUD.m in Sources */,
+				7AD383F22213F20B00B1E9F9 /* HYBaseView.m in Sources */,
 				7AD383B52213C1DC00B1E9F9 /* ViewController.m in Sources */,
+				7AD383EC2213F1DC00B1E9F9 /* HYBaseViewController.m in Sources */,
+				7AD3841A2213FC4600B1E9F9 /* HYShoppingCartPresent.m in Sources */,
+				7AD3841D2213FCFE00B1E9F9 /* UITableView+HYRegister.m in Sources */,
+				7AD384082213F52700B1E9F9 /* HYFoundationTool.m in Sources */,
+				7AD384042213F46000B1E9F9 /* sm4test.c in Sources */,
 				7AD383B22213C1DB00B1E9F9 /* AppDelegate.m in Sources */,
+				7AD384032213F46000B1E9F9 /* SM4EncodeAndDecode.m in Sources */,
+				7AD384052213F46000B1E9F9 /* sm4.c in Sources */,
 				7AD383C32213C1DD00B1E9F9 /* main.m in Sources */,
+				7AD384112213FBC700B1E9F9 /* HYShoppingCartCell.m in Sources */,
 				7AD383BB2213C1DC00B1E9F9 /* Adonis_20190213_MVP.xcdatamodeld in Sources */,
+				7AD384142213FBE300B1E9F9 /* HYShoppingCartController.m in Sources */,
+				7AD384202214005600B1E9F9 /* UIColor+HYSetColor.m in Sources */,
+				7AD383EF2213F1F200B1E9F9 /* HYBaseModel.m in Sources */,
+				7AD383F62213F31000B1E9F9 /* HYBaseNavigationController.m in Sources */,
+				7AD383F92213F3D700B1E9F9 /* HYEncryptTool.m in Sources */,
+				7AD384172213FBF700B1E9F9 /* HYShoppingCartModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +765,14 @@
 		};
 		7AD383DD2213C1DD00B1E9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F61B20B857178DDD835F5C9 /* Pods-Adonis_20190213_MVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adonis_20190213_MVP/Resources/HYHeaderPrefix.h";
 				INFOPLIST_FILE = Adonis_20190213_MVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,16 +780,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20190213-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Debug;
 		};
 		7AD383DE2213C1DD00B1E9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C681991829E45F75AAD245FE /* Pods-Adonis_20190213_MVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adonis_20190213_MVP/Resources/HYHeaderPrefix.h";
 				INFOPLIST_FILE = Adonis_20190213_MVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,11 +801,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20190213-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Release;
 		};
 		7AD383E02213C1DD00B1E9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D9C915E485CF3CE8E6274B /* Pods-Adonis_20190213_MVPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +827,7 @@
 		};
 		7AD383E12213C1DD00B1E9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8295E1583689B7380FED75ED /* Pods-Adonis_20190213_MVPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +847,7 @@
 		};
 		7AD383E32213C1DD00B1E9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED4D3197469F07BBFEEE1DD /* Pods-Adonis_20190213_MVPUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
@@ -527,6 +866,7 @@
 		};
 		7AD383E42213C1DD00B1E9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C626EA566A9B6CC7FCD8E5 /* Pods-Adonis_20190213_MVPUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
