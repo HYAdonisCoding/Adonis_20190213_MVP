@@ -10,12 +10,19 @@
 #import "HYShoppingCartCell.h"
 #import "UITableView+HYRegister.h"
 #import "HYShoppingCartModel.h"
+#import "HYShoppingCartPresent.h"
+#import "HYDataSource.h"
 
-@interface HYShoppingCartController ()<UITableViewDelegate, UITableViewDataSource>
+@interface HYShoppingCartController ()<UITableViewDelegate, UITableViewDataSource, HYShoppingCartDelegate>
 /** 数据 */
 @property (nonatomic, copy) NSArray *dataArray;
 /** 列表 */
 @property (nonatomic, strong) UITableView *tableView;
+
+/** present */
+@property (nonatomic, strong) HYShoppingCartPresent *present;
+/** <#Description#> */
+@property (nonatomic, strong) HYDataSource *dataSource;
 
 @end
 
@@ -25,20 +32,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"我的购物车";
+    //获取数据
+    self.present = [HYShoppingCartPresent alloc];
+    self.present.delegate = self;
+    [self.present loadData];
+    self.dataArray = self.present.dataArray; 
+    
     //设置代理
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
     //注册cell
     [self.tableView registerClass:[HYShoppingCartCell class]];
-    
-    //获取数据
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfFile:filePath];
-    self.dataArray = [NSArray yy_modelArrayWithClass:[HYShoppingCartModel class] json:jsonData];
-    
+}
+
+#pragma mark - HYShoppingCartDelegate
+- (void)reloadUI {
+    self.dataArray = self.present.dataArray;
     [self.tableView reloadData];
 }
+
 #pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -51,6 +64,8 @@
     HYShoppingCartModel *model = self.dataArray[indexPath.row];
     cell.nameLabel.text = model.name;
     cell.numberLabel.text = model.number;
+    cell.indexPath = indexPath;
+    cell.delegate = self.present;
     return cell;
 }
 

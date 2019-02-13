@@ -12,7 +12,8 @@
 
 @interface HYShoppingCartCell ()
 
-
+/** 数值 */
+@property (nonatomic, assign) NSInteger number;
 
 /** 增加按钮 */
 @property (nonatomic, strong) UIButton *increaseButton;
@@ -98,23 +99,31 @@
 }
 
 - (void)increaseNumber {
-    NSInteger number = self.numberLabel.text.integerValue;
-    if (number >= 99) {
+    self.number = self.numberLabel.text.integerValue;
+    if (self.number >= 99) {
         return;
     }
-    number++;
-    self.numberLabel.text = [NSString stringWithFormat:@"%ld", number];
+    self.number++;
 }
 
 - (void)decreaseNumber {
-    NSInteger number = self.numberLabel.text.integerValue;
-    if (number <= 1) {
+    self.number = self.numberLabel.text.integerValue;
+    if (self.number <= 1) {
         return;
     }
-    number--;
-    self.numberLabel.text = [NSString stringWithFormat:@"%ld", number];
+    self.number--;
 }
 
+
+#pragma mark - setter
+
+- (void)setNumber:(NSInteger)number {
+    _number = number;
+    self.numberLabel.text = [NSString stringWithFormat:@"%ld", number];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didClickedAddButtonWithNum:indexPath:)]) {
+        [self.delegate didClickedAddButtonWithNum:self.numberLabel.text indexPath:self.indexPath];
+    }
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];

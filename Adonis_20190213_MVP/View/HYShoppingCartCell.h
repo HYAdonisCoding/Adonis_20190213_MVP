@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HYShoppingCartPresent.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HYShoppingCartCell : UITableViewCell
+
+/** 代理  */
+@property (nonatomic, weak) id<HYShoppingCartDelegate> delegate;
+
+/** indexPath */
+@property (nonatomic, strong) NSIndexPath *indexPath;
 
 /** 标号 */
 @property (nonatomic, strong) UILabel *numberLabel;

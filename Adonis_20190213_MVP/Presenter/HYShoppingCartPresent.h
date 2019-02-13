@@ -7,11 +7,28 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HYShoppingCartModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HYShoppingCartPresent : NSObject
+@protocol HYShoppingCartDelegate <NSObject>
 
+@optional
+- (void)didClickedAddButtonWithNum:(NSString *)number indexPath:(NSIndexPath *)indexPath;
+
+- (void)reloadUI;
+
+@end
+
+@interface HYShoppingCartPresent : NSObject<HYShoppingCartDelegate>
+
+/** 代理  */
+@property (nonatomic, weak) id<HYShoppingCartDelegate> delegate;
+/** 数据 */
+@property (nonatomic, strong) NSMutableArray *dataArray;
+
+/** 获取数据 */
+- (void)loadData;
 @end
 
 NS_ASSUME_NONNULL_END
