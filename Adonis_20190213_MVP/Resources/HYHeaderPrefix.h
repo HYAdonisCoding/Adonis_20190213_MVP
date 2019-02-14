@@ -17,6 +17,7 @@
 #import <FMDB.h>
 
 #import "UIColor+HYSetColor.h"
+#import "HYBlockHeadder.h"
 
 
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
@@ -56,6 +57,13 @@
 #define kHYSafeAreaTopHeight ((IS_IPHONE_X || IS_IPHONE_Xs || IS_IPHONE_Xr || IS_IPHONE_Xs_Max) ? 88 : 64)
 //底部高度
 #define kHYAreaBottomHeight ((IS_IPHONE_X || IS_IPHONE_Xs || IS_IPHONE_Xr || IS_IPHONE_Xs_Max) ? 34 : 0)
+
+
+//将self转换成弱引用
+#define WK(weakSelf) __weak typeof(self) weakSelf = self;
+
+//将weakSelf转换成强引用
+#define SG(strongSelf) __strong typeof(self) strongSelf = weakSelf;
 
 
 #endif

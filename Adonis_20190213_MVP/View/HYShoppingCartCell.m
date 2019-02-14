@@ -101,6 +101,7 @@
 - (void)increaseNumber {
     self.number = self.numberLabel.text.integerValue;
     if (self.number >= 99) {
+        self.number = 0;
         return;
     }
     self.number++;
@@ -109,6 +110,7 @@
 - (void)decreaseNumber {
     self.number = self.numberLabel.text.integerValue;
     if (self.number <= 1) {
+        self.number = 99;
         return;
     }
     self.number--;

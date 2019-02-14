@@ -26,8 +26,11 @@
         model.number = number;
     }
     
-    if ([number integerValue] > 98) {
-        [self.dataArray removeObjectsInRange:NSMakeRange(0, 4)];
+    if ([number integerValue] == 0) {
+        //设置清空部分购物车
+        if (self.dataArray.count > 4) {
+            [self.dataArray removeObjectsInRange:NSMakeRange(0, 4)];
+        }
         if (self.delegate && [self.delegate respondsToSelector:@selector(reloadUI)]) {
             [self.delegate reloadUI];
         }

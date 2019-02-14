@@ -13,15 +13,13 @@
 #import "HYShoppingCartPresent.h"
 #import "HYDataSource.h"
 
-@interface HYShoppingCartController ()<UITableViewDelegate, UITableViewDataSource, HYShoppingCartDelegate>
-/** 数据 */
-@property (nonatomic, copy) NSArray *dataArray;
+@interface HYShoppingCartController ()<HYShoppingCartDelegate, UITableViewDelegate>
 /** 列表 */
 @property (nonatomic, strong) UITableView *tableView;
 
 /** present */
 @property (nonatomic, strong) HYShoppingCartPresent *present;
-/** <#Description#> */
+/** 数据处理器 */
 @property (nonatomic, strong) HYDataSource *dataSource;
 
 @end
@@ -30,56 +28,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     self.navigationItem.title = @"我的购物车";
     //获取数据
     self.present = [HYShoppingCartPresent alloc];
     self.present.delegate = self;
     [self.present loadData];
-    self.dataArray = self.present.dataArray; 
-    
-    //设置代理
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
-    
     //注册cell
     [self.tableView registerClass:[HYShoppingCartCell class]];
+    WK(weakSelf)
+    self.dataSource = [[HYDataSource alloc] initWithIdentifier:NSStringFromClass([HYShoppingCartCell class]) configBlock:^(HYShoppingCartCell *cell, HYShoppingCartModel *model, NSIndexPath *indexPath) {
+        SG(strongSelf)
+        cell.nameLabel.text = model.name;
+        cell.numberLabel.text = model.number;
+        cell.indexPath = indexPath;
+        cell.delegate = strongSelf.present;
+    }];
+    [self.dataSource addDataArray:self.present.dataArray];
+    self.tableView.dataSource = self.dataSource;
+    self.tableView.delegate = self;
 }
 
 #pragma mark - HYShoppingCartDelegate
 - (void)reloadUI {
-    self.dataArray = self.present.dataArray;
+    [self.dataSource addDataArray:self.present.dataArray];
     [self.tableView reloadData];
-}
-
-#pragma mark - UITableViewDataSource
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataArray.count;
-}
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    HYShoppingCartCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HYShoppingCartCell class]) forIndexPath:indexPath];
-    HYShoppingCartModel *model = self.dataArray[indexPath.row];
-    cell.nameLabel.text = model.name;
-    cell.numberLabel.text = model.number;
-    cell.indexPath = indexPath;
-    cell.delegate = self.present;
-    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 #pragma mark -- Lazy Load
-
-- (NSArray *)dataArray {
-    if (!_dataArray) {
-        _dataArray = @[];
-    }
-    return _dataArray;
-}
 - (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];

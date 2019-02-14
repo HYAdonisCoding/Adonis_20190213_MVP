@@ -62,6 +62,7 @@
 		38EDD0BFE69F202A8EA1E26E /* libPods-Adonis_20190213_MVP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190213_MVP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD6684AADACA71AD6C65CE /* libPods-Adonis_20190213_MVPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190213_MVPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F61B20B857178DDD835F5C9 /* Pods-Adonis_20190213_MVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190213_MVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190213_MVP/Pods-Adonis_20190213_MVP.debug.xcconfig"; sourceTree = "<group>"; };
+		7A566DBB2214F03100E3C408 /* HYBlockHeadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBlockHeadder.h; sourceTree = "<group>"; };
 		7AD383AD2213C1DB00B1E9F9 /* Adonis_20190213_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adonis_20190213_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD383B02213C1DB00B1E9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AD383B12213C1DB00B1E9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -318,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				7AD3840A2213F5E500B1E9F9 /* HYHeaderPrefix.h */,
+				7A566DBB2214F03100E3C408 /* HYBlockHeadder.h */,
 				7AD384212214069700B1E9F9 /* Data.json */,
 			);
 			path = Resources;

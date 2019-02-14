@@ -10,9 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HYDataSource : HYBaseModel <UITableViewDelegate, UITableViewDataSource>
+@interface HYDataSource : HYBaseModel <UITableViewDataSource>
 
-- (instancetype)initWithConfigBlock:()block;
+- (instancetype)initWithIdentifier:(NSString *)identifier configBlock:(TableViewDataSourceBlock)block;
+
+- (void)addDataArray:(NSArray *)dataArray;
 @end
 
 NS_ASSUME_NONNULL_END
